@@ -32,3 +32,31 @@ body {
   font-size: 16px;
   border-radius: 5px;
 }
+
+.activities__title {
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.activities {
+  background-color: #d5ddff;
+  padding: 40px;
+}
+
+.top-activities {
+  display: flex;
+}
+
+.activity {
+  margin: 0 20px;
+}
+
+.activity h3,
+p {
+  font-size: 14px;
+}
+.activity-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
