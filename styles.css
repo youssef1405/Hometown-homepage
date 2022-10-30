@@ -39,7 +39,7 @@ body {
 }
 
 .activities {
-  background-color: #d5ddff;
+  background-color: #ffead0;
   padding: 40px;
 }
 
@@ -59,4 +59,38 @@ p {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+}
+
+/* 
+Guide Section
+*/
+
+.guide {
+  padding: 50px 0;
+}
+
+.card {
+  border: 1px solid #000;
+  width: 60%;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 10px;
+  border-bottom: 5px solid #000;
+  background: #ffcf94;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card img {
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+.guide-info {
+  width: 45%;
+}
+
+.about-me {
+  font-style: italic;
 }
